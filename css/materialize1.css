@@ -12,13 +12,9 @@ br {
 }
 
 
-/*nav {
-  z-index: 99;
-}*/
-
-nav div ul li a.active {
+/* nav div ul li a.active {
     background-color: rgba(0, 0, 0, 0.5);
-}
+} */
 
 ul li a.active {
     background-color: rgba(0, 0, 0, 0.05);
@@ -101,20 +97,9 @@ span {
     margin-right: 10px;
 }
 
-
-/* h2 {
-  color: white;
-} */
-
 .floated {
     float: left;
 }
-
-
-/* .welcome {
-  position: inherit;
-  top: -64px;
-} */
 
 .slider {
     height: 100vh !important;
