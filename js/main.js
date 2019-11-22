@@ -25,6 +25,13 @@ var options = [{
         }
     },
     {
+        selector: '#staggered-list3',
+        offset: 100,
+        callback: function(el) {
+            Materialize.fadeInImage($(el));
+        }
+    },
+    {
         selector: '#about',
         offset: 200,
         callback: function(el) {
