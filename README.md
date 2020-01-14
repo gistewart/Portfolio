@@ -1,4 +1,4 @@
-# Portfolio-2
+# Portfolio
 
 ## Project maintenance and contributions
 
