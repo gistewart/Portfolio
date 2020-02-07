@@ -555,28 +555,31 @@
                 <div class="container contactContainer">
                     <div class="row">
                         <div class="col s12">
-                            <form id="contact" action="" method="post">
+                            <form id="contact" action="https://formspree.io/xvoabpey" method="post">
                                 <h6>Thank you for getting in touch with me</h6>
                                 <fieldset>
-                                    <input placeholder="Your name" type="text" tabindex="1" required>
+                                    <input placeholder="Your name" name="name" type="text" tabindex="1" required>
                                 </fieldset>
                                 <fieldset>
-                                    <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                                    <input placeholder="Your Email Address" name="email" type="email" tabindex="2"
+                                        required>
                                 </fieldset>
                                 <fieldset>
-                                    <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+                                    <input placeholder="Your Phone Number (optional)" name="phoneNumber" type="tel"
+                                        tabindex="3" required>
+                                </fieldset>
+                                <!-- <fieldset>
+                                    <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required> -->
                                 </fieldset>
                                 <fieldset>
-                                    <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
-                                </fieldset>
-                                <fieldset>
-                                    <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+                                    <textarea placeholder="Type your message here...." name="message" tabindex="5"
+                                        required></textarea>
                                 </fieldset>
                                 <fieldset>
                                     <button name="submit" type="submit" id="contact-submit"
                                         data-submit="...Sending">Submit</button>
                                 </fieldset>
-                                <p class="phone">Telephone: 1.404.xxx.xxxx</p>
+                                <p class="myEmail">email: graeme.iain.stewart@gmail.com</p>
                             </form>
                         </div>
                     </div>
